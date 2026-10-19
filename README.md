@@ -55,10 +55,10 @@ Para evitar el sesgo derivado del volumen de posesión global de cada equipo, se
 $$\text{Participación individual (\%)} = \left( \frac{\text{Acciones Totales del Jugador}}{\text{Acciones Totales del Equipo en los mismos partidos}} \right) \times 100$$
 
 ### Resultados de Normalización Táctica:
-* **Neymar Jr. (FC Barcelona):** **`9.85%`** de cuota de uso en el sistema ofensivo culé.
-* **Antoine Griezmann (Atlético de Madrid):** **`8.96%`** de cuota de uso en el esquema de Diego Simeone.
+* **Neymar Jr. (FC Barcelona):** **`9.85%`** de participación individual en el sistema ofensivo culé.
+* **Antoine Griezmann (Atlético de Madrid):** **`8.96%`** de participación individual en el esquema de Diego Simeone.
 
-Esta métrica demuestra que, aunque el Barcelona acumula un volumen absoluto de pases y toques significativamente mayor, la cuota de peso relativo de ambos jugadores dentro de sus estructuras tácticas es altamente equiparable.
+Esta métrica demuestra que, aunque el Barcelona acumula un volumen absoluto de pases y toques significativamente mayor, la participación individual de ambos jugadores dentro de sus estructuras tácticas es altamente equiparable.
 
 ---
 

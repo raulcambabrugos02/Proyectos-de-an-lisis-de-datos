@@ -24,7 +24,7 @@
 
 Comparar futbolistas de elite que juegan en equipos con estilos tácticos opuestos (p. ej., un modelo de posesión dominante como el **FC Barcelona** frente a un bloque medio/bajo de transición rápida como el **Atlético de Madrid**) suele introducir sesgos severos al usar estadísticas absolutas.
 
-Este proyecto resuelve ese problema mediante la implementación de la **Cuota de Uso Táctica (*Usage Rate*)**, contextualizando el volumen individual de acciones respecto a la actividad total del equipo. Se realiza un análisis comparativo profundo entre **Neymar Jr.** y **Antoine Griezmann** durante la temporada 2015/16 de La Liga utilizando datos de eventos (*event-level data*) de **StatsBomb**.
+Este proyecto resuelve ese problema mediante la implementación de la cuota de particiapción, contextualizando el volumen individual de acciones respecto a la actividad total del equipo. Se realiza un análisis comparativo profundo entre **Neymar Jr.** y **Antoine Griezmann** durante la temporada 2015/16 de La Liga utilizando datos de eventos (*event-level data*) de **StatsBomb**.
 
 ```
           ┌─────────────────────────────────────────────────────────┐
@@ -52,7 +52,7 @@ Este proyecto resuelve ese problema mediante la implementación de la **Cuota de
 
 Para evitar el sesgo derivado del volumen de posesión global de cada equipo, se calcula la participación del jugador en relación con las acciones totales de su conjunto:
 
-$$\text{Cuota de Uso (\%)} = \left( \frac{\text{Acciones Totales del Jugador}}{\text{Acciones Totales del Equipo en los mismos partidos}} \right) \times 100$$
+$$\text{Participación individual (\%)} = \left( \frac{\text{Acciones Totales del Jugador}}{\text{Acciones Totales del Equipo en los mismos partidos}} \right) \times 100$$
 
 ### Resultados de Normalización Táctica:
 * **Neymar Jr. (FC Barcelona):** **`9.85%`** de cuota de uso en el sistema ofensivo culé.

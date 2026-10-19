@@ -33,9 +33,9 @@ Este proyecto resuelve ese problema mediante la implementación de la **Cuota de
                                        │
                                        ▼
           ┌─────────────────────────────────────────────────────────┐
-          │          Data Pipeline & Feature Engineering           │
-          │  - Ingesta de eventos por partido                        │
-          │  - Normalización por Cuota de Uso (Usage Rate)          │
+          │          Data Pipeline & Feature Engineering            │
+          │  - Ingesta de eventos por partido                       │
+          │  - Normalización por porcentaje de participación        │
           │  - Agregación por Pilares (Ofensivo, Creador, etc.)     │
           └────────────────────────────┬────────────────────────────┘
                                        │
@@ -129,21 +129,12 @@ la-liga-2015-16-player-profiling/
 │
 ├── data/                       # Archivos locales de datos procesados (opcional)
 ├── notebooks/
-│   └── player_profiling.ipynb  # Notebook principal de Jupyter con el análisis
+│   └── player_profiling_la_liga.ipynb  # Notebook principal de Jupyter con el análisis
 ├── visuals/                    # Gráficas guardadas (Radares PyPizza, histogramas)
 ├── .gitignore                  # Exclusiones estándar de Git
 ├── LICENSE                     # Licencia del proyecto
 ├── README.md                   # Documentación del proyecto
-└── requirements.txt            # Lista de dependencias
 ```
-
----
-
-## 🔮 Próximas Mejoras (Roadmap)
-
-- [ ] Normalización de métricas por 90 minutos jugados (**P90**).
-- [ ] Implementación del modelo de similitud **KNN / Cosine Similarity** para recomendar sustitutos o perfiles parecidos en La Liga.
-- [ ] Exportación interactiva de gráficos a través de `Plotly` o `Streamlit`.
 
 ---
 
